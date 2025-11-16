@@ -1,2 +1,15 @@
 # Simple-Sentiment-Analysis-for-Social-Media-Posts
 Develop a tool that can analyze and classify social media text, Help company analyze the opinions on social media regarding the input text topic, visualize ongoing trend into simple charts
+# ProjectOS_Sentimental_App
+
+## Explanation
+- `_FinalProject_OS_Sentimental.ipynb` : This notebook contains the initial implementation of the project, developed and tested within the Google Colaboratory environment prior to operating system optimization.
+- `project_OS_polar.ipynb` : This notebook represents the optimized version of the project, utilizing the Polars DataFrame library for enhanced performance within a Jupyter Notebook environment.
+
+## Tutorial
+To execute this project, please follow these steps:
+1. Download all file included in the `ProjectOS_Sentimental_App` directory.
+2. Open file by using Jupyter Notebook or Google Colaboratory **(Recommend to use Google Colab)**.
+3. Make sure you download the sentimentdataset.csv to your file and correctly put the path.
+4. Before running the notebook, ensure that you uncomment all `!pip` commands to install the necessary libraries.
+5. Execute the notebooks in the following order: first, `_FinalProject_OS_Sentimental.ipynb` (Before OS optimization) with the correct file paths to the `sentimentdataset.csv` (Dataset) and `app_sentiment.py` (App using streamlit by uncomment the command !streamlit run app_sentiment.py) , followed by the notebook `project_OS_polar.ipynb` (Code after OS optimization).
